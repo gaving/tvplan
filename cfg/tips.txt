@@ -1,0 +1,2 @@
+You can clear individual news items by hovering over the title and on the far left-most 'X' on an entry.
+Shows may require to be 'updated' in config if they show signs of questionable inactivity.

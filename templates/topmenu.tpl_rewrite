@@ -1,0 +1,22 @@
+  <!-- Header box starts: page title and top link bar -->
+  <div id="headerBox">
+    <div id="headerLeft">
+      <div class="verticalSpacer">&nbsp;</div>
+      {$title}
+    </div>
+    <div id="headerRight">
+      <div class="verticalSpacer">&nbsp;</div>
+      {if (!empty($logged_in))}
+      <a href="home" title="return to home" class="home">home</a> <span class="noDisplay"> | </span>
+      <a href="shows" title="view show index" class="shows">shows</a> <span class="noDisplay"> | </span>
+      <a href="config" title="user configuration" class="config">config</a> <span class="noDisplay"> | </span>
+      {if (!empty($admin))}
+      	<a href="admin" title="admin panel" class="admin">admin</a> <span class="noDisplay"> | </span>
+      {/if}
+      <a href="logout" title="logout ({$username})" class="logout">logout ({$username})</a> <span class="noDisplay"> | </span>
+      {else}
+      <a href="register" title="create an account" class="register">register</a> <span class="noDisplay"> | </span>
+      <a href="login" title="login!" class="login">login</a> <span class="noDisplay"> | </span>
+      {/if}
+    </div>
+  </div>

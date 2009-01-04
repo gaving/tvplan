@@ -1,0 +1,489 @@
+2006-04-15 11:41  gstewart
+
+	* trunk/img/arrow.gif, trunk/img/box_bottom.gif, 
+	  trunk/img/box_top.gif, trunk/img/exclamation.gif, 
+	  trunk/img/icn_config.jpg, trunk/img/information.gif, 
+	  trunk/img/msg_error.gif, trunk/img/msg_information.gif, 
+	  trunk/img/msg_nuke.gif, trunk/img/msg_tip.gif, 
+	  trunk/img/tip.gif, trunk/js/general.js, trunk/lib/classes, 
+	  trunk/lib/classes/News.class.php, 
+	  trunk/lib/classes/Show.class.php, 
+	  trunk/lib/classes/Show_lib.php, 
+	  trunk/lib/classes/User.class.php, 
+	  trunk/lib/classes/User_lib.php, trunk/lib/epguide_lib.php, 
+	  trunk/lib/nuke.sh, trunk/lib/templates/admin.ini, 
+	  trunk/lib/tv.com_lib.php, trunk/lib/user_lib.php: synergy
+
+2006-04-15 11:37  gstewart
+
+	* trunk/README, trunk/TODO, trunk/index.php, 
+	  trunk/js/disableform.js, trunk/lib/table_setup.sql, 
+	  trunk/lib/templates/server_config.template, 
+	  trunk/lib/util_lib.php, trunk/profile/.cvsignore, 
+	  trunk/templates/admin.tpl, trunk/templates/body.tpl, 
+	  trunk/templates/browse.tpl, 
+	  trunk/templates/browse_specific_show.tpl, 
+	  trunk/templates/config.tpl, trunk/templates/footer.tpl, 
+	  trunk/templates/header.tpl, trunk/templates/leftcolumn.tpl, 
+	  trunk/templates/login.tpl, trunk/templates/lostpassword.tpl, 
+	  trunk/templates/msgbox.tpl, trunk/templates/register.tpl, 
+	  trunk/templates/stylesheet.css: two point oh
+
+2006-04-09 18:28  gstewart
+
+	* trunk/lib/epguide_lib.php: Reverted silly change.
+
+2006-04-09 12:17  gstewart
+
+	* trunk/README, trunk/TODO, trunk/lib/epguide_lib.php: minor 
+	  messing around
+
+2006-04-09 11:55  gstewart
+
+	* trunk/js/overlib/images/Thumbs.db: Rogue thumbs.db killed.
+
+2006-03-19 10:24  gstewart
+
+	* trunk/TODO: More todos.
+
+2006-03-05 19:43  gavin
+
+	* trunk/k: Deleted.
+
+2006-03-05 19:42  gavin
+
+	* trunk/k: sdasd
+
+2006-03-05 11:16  gstewart
+
+	* trunk/img, trunk/img/a_hover.gif, trunk/img/bullet.gif, 
+	  trunk/img/bullet_on.gif, trunk/img/button-css.png, 
+	  trunk/img/button-php.gif, trunk/img/button-xhtml.png, 
+	  trunk/img/exclamation.gif, trunk/img/hdr_bg.gif, 
+	  trunk/img/hdr_left.gif, trunk/img/hdr_right.gif, 
+	  trunk/img/icn_about.gif, trunk/img/icn_admin.gif, 
+	  trunk/img/icn_burn.gif, trunk/img/icn_config.gif, 
+	  trunk/img/icn_config.jpg, trunk/img/icn_email.gif, 
+	  trunk/img/icn_gallery.gif, trunk/img/icn_home.gif, 
+	  trunk/img/icn_links.gif, trunk/img/icn_login.gif, 
+	  trunk/img/icn_logout.gif, trunk/img/icn_next.gif, 
+	  trunk/img/icn_next_on.gif, trunk/img/icn_next_yr.gif, 
+	  trunk/img/icn_next_yr_on.gif, trunk/img/icn_password.gif, 
+	  trunk/img/icn_prev.gif, trunk/img/icn_prev_on.gif, 
+	  trunk/img/icn_prev_yr.gif, trunk/img/icn_prev_yr_on.gif, 
+	  trunk/img/icn_register.gif, trunk/img/img_example.gif, 
+	  trunk/img/information.gif, trunk/img/logo.gif, 
+	  trunk/img/news_bg.gif, trunk/img/tip.gif, trunk/img/url.gif: 
+	  Re-added uncorrupt image files.
+
+2006-03-05 11:15  gstewart
+
+	* trunk/img, trunk/index.php: Removed images.
+
+2006-01-22 10:52  gstewart
+
+	* trunk/README, trunk/TODO, trunk/index.php, 
+	  trunk/lib/tv.com_lib.php: Sorted the 'watch video' stuff from 
+	  being shown on news items.
+
+2006-01-22 02:54  gstewart
+
+	* trunk/lib/epguide_lib.php: Silly echo.
+
+2006-01-22 02:52  gstewart
+
+	* trunk/CHANGELOG: Updated changelog.
+
+2006-01-22 02:51  gstewart
+
+	* trunk/lib/epguide_lib.php, trunk/lib/util_lib.php: Added 
+	  'multiple URL' functionality for the calendar links with 
+	  multiple shows.
+
+2006-01-14 13:03  gstewart
+
+	* trunk/TODO, trunk/index.php, trunk/lib/epguide_lib.php, 
+	  trunk/lib/lib.php, trunk/lib/user_lib.php, 
+	  trunk/lib/util_lib.php, trunk/templates/login.tpl: Random 
+	  renames and modifications.
+
+2006-01-04 15:09  gstewart
+
+	* trunk/cfg/tips.txt, trunk/img/tip.gif: Tips file and icon.
+	* trunk/TODO, trunk/index.php, trunk/lib/epguide_lib.php, 
+	  trunk/lib/lib.php, trunk/lib/table_setup.sql, 
+	  trunk/templates/config.tpl, trunk/templates/msgbox.tpl, 
+	  trunk/templates/stylesheet.css: Added tips system, first time 
+	  login message explaining what to do.
+	  
+	  Few other changes.
+	  
+	  Updated TODO.
+
+2006-01-03 23:56  gstewart
+
+	* trunk/favicon.ico: New favicon!
+
+2006-01-03 23:43  gstewart
+
+	* trunk/TODO: Added some things.
+
+2006-01-03 23:28  gstewart
+
+	* trunk/.htaccess: That didn't work.
+
+2006-01-03 23:27  gstewart
+
+	* trunk/index.php, trunk/lib/lib.php, trunk/templates/admin.tpl, 
+	  trunk/templates/config.tpl, trunk/templates/register.tpl: 
+	  Renamed some text inputs which caused firefox to fill in values 
+	  for, rearranged some templates to read better.
+
+2006-01-03 22:52  gstewart
+
+	* trunk/index.php, trunk/lib/epguide_lib.php, trunk/lib/lib.php, 
+	  trunk/lib/tv.com_lib.php: Ran files through prettyprinter.de to 
+	  tidy the indenting up.
+
+2006-01-03 20:18  gstewart
+
+	* trunk/TODO, trunk/index.php, trunk/lib/epguide_lib.php, 
+	  trunk/templates/browse.tpl, 
+	  trunk/templates/browse_specific_show.tpl, 
+	  trunk/templates/shows_specific.tpl, 
+	  trunk/templates/stylesheet.css: Updated TODO.
+	  
+	  Added new method for returning the next air date for a show by 
+	  passing its name.
+	  
+	  Updated browse/browse_specific.tpl to be "colour coordinated" 
+	  with the show series list.
+	  
+	  Updated the stylesheet, renamed shows_specific.tpl to 
+	  browse_specific_show.tpl
+
+2006-01-03 16:23  gstewart
+
+	* trunk/.htaccess: mod_gzip screws up php's flush() function which 
+	  is used throughout the script.
+
+2006-01-03 16:05  gstewart
+
+	* trunk/templates/browse.tpl, trunk/templates/shows.tpl: 'Browse' 
+	  is a little more clearer than 'Shows'.
+
+2006-01-03 16:04  gstewart
+
+	* trunk/README, trunk/TODO, trunk/index.php, 
+	  trunk/lib/tv.com_lib.php, trunk/templates/body.tpl, 
+	  trunk/templates/config.tpl, trunk/templates/stylesheet.css, 
+	  trunk/templates/topmenu.tpl: Added batch update ability in 
+	  config, specific news posts can now be deleted (bit buggy 
+	  though).
+	  
+	  Some other minor tweaks.
+
+2006-01-02 18:14  gstewart
+
+	* trunk/CHANGELOG, trunk/TODO: Generated CHANGELOG by cvs2cl and 
+	  added simple 'TODO' task list.
+
+2006-01-02 18:02  gstewart
+
+	* trunk/AUTHORS: Authors file.
+
+2006-01-02 17:59  gstewart
+
+	* trunk/lib, trunk/lib/.cvsignore: *** empty log message ***
+
+2006-01-02 17:58  gstewart
+
+	* trunk/lib/.cvsignore: 'server_config.php' no longer in the 
+	  repository and has a template instead.
+
+2006-01-02 17:36  gstewart
+
+	* trunk/lib/templates, trunk/lib/templates/server_config.template: 
+	  'server_config.php' template.
+
+2006-01-02 17:32  gstewart
+
+	* trunk/lib/server_config.php: Removed machine specific file, 
+	  template is now in lib/templates/server_config.template.
+
+2006-01-02 01:31  gstewart
+
+	* trunk/lib/server_config.php: *** empty log message ***
+
+2006-01-02 01:30  gstewart
+
+	* trunk/tmp, trunk/tmp/.cvsignore: Nothing in this directory 
+	  requires version control.
+
+2006-01-02 01:26  gstewart
+
+	* trunk/index.php, trunk/lib/lib.php: Silenced some undesirable 
+	  verbose output.
+
+2006-01-02 00:14  gstewart
+
+	* trunk/profile, trunk/profile/.cvsignore: Nothing in this 
+	  directory needs to be version controlled (specific user 
+	  profiles.)
+
+2006-01-02 00:12  gstewart
+
+	* trunk/.cvsignore, trunk/templates_c, 
+	  trunk/templates_c/.cvsignore: Added contents of templates_c 
+	  (smarty generated cache files)
+
+2006-01-02 00:06  gstewart
+
+	* trunk, trunk/.cvsignore: Added 'templates_c' directory.
+
+2006-01-01 23:55  gstewart
+
+	* trunk/CREDITS: Added smarty credits
+
+2006-01-01 23:48  gstewart
+
+	* trunk/index.php, trunk/lib/server_config.php: *** empty log 
+	  message ***
+
+2006-01-01 23:47  gstewart
+
+	* trunk/lib, trunk/lib/.cvsignore: Added 'server_config' which 
+	  really doesn't need to be version controlled.
+
+2006-01-01 21:34  gstewart
+
+	* trunk/.htaccess, trunk/lib/lib.php: *** empty log message ***
+
+2006-01-01 21:30  gstewart
+
+	* trunk/CREDITS: Added lastRSS info, some other credits.
+
+2006-01-01 21:27  gstewart
+
+	* trunk/CREDITS: Added overlib information.
+
+2006-01-01 21:19  gstewart
+
+	* trunk/index.php, trunk/lib/lib.php, trunk/tmp: Changed some log 
+	  handling, script will now die without the ability to log.
+
+2006-01-01 20:56  gstewart
+
+	* trunk/.project: Removed eclipse project file (uneeded really.)
+
+2006-01-01 20:53  gstewart
+
+	* trunk/CREDITS: *** empty log message ***
+
+2006-01-01 20:51  gstewart
+
+	* trunk/README, trunk/index.php: Further permission checking for 
+	  directories and better error handling.
+
+2006-01-01 20:23  gstewart
+
+	* trunk/index.php: *** empty log message ***
+
+2006-01-01 20:22  gstewart
+
+	* trunk/README, trunk/index.php, trunk/lib/lib.php, 
+	  trunk/lib/server_config.php, trunk/lib/table_setup.sql, 
+	  trunk/profile: Even further tidying up.
+
+2006-01-01 19:34  gstewart
+
+	* trunk/.cvsignore, trunk/CHANGELOG, trunk/index.php, 
+	  trunk/lib/tvtome_lib.php: Random tidying up.
+
+2006-01-01 19:23  gstewart
+
+	* trunk/cfg/access.log, trunk/cfg/admin.ini, trunk/cfg/gavin.ini, 
+	  trunk/profile, trunk/profile/admin.ini, trunk/profile/gavin.ini, 
+	  trunk/tmp, trunk/tmp/access.log: *** empty log message ***
+
+2006-01-01 19:20  gstewart
+
+	* trunk/index.php: Created new profile directory, changed 
+	  references to it throughout the script.
+
+2006-01-01 19:14  gstewart
+
+	* trunk/lib/grab_shows.php, trunk/templates_c: Removed loads of 
+	  uneeded template files
+
+2005-12-29 12:14  gstewart
+
+	* trunk/cfg/shows.txt, trunk/lib/grab_shows.php: *** empty log 
+	  message ***
+
+2005-12-02 16:28  gstewart
+
+	* trunk, trunk/.cvsignore: *** empty log message ***
+
+2005-12-02 16:21  gstewart
+
+	* trunk/cfg/access.log, trunk/lib/server_config.php, 
+	  trunk/templates_c/%%0B^0B4^0B40EBED%%config.tpl.php, 
+	  trunk/templates_c/%%0E^0E4^0E407559%%footer.tpl.php, 
+	  trunk/templates_c/%%1C^1CB^1CB1970C%%topmenu.tpl.php, 
+	  trunk/templates_c/%%62^620^6206D997%%admin.tpl.php, 
+	  trunk/templates_c/%%6A^6A5^6A537DD8%%login.tpl.php, 
+	  trunk/templates_c/%%80^809^8094B64D%%msgbox.tpl.php, 
+	  trunk/templates_c/%%81^81A^81AC87DE%%shows.tpl.php, 
+	  trunk/templates_c/%%87^878^8783C4C5%%leftcolumn.tpl.php, 
+	  trunk/templates_c/%%95^959^959BC755%%body.tpl.php, 
+	  trunk/templates_c/%%F7^F7F^F7F34188%%header.tpl.php: *** empty 
+	  log message ***
+
+2005-10-21 22:09  gstewart
+
+	* trunk/.htaccess, trunk/.project, trunk/COPYING, trunk/cfg, 
+	  trunk/cfg/access.log, trunk/cfg/admin.ini, trunk/cfg/gavin.ini, 
+	  trunk/cfg/shows.txt, trunk/favicon.ico, trunk/img, 
+	  trunk/img/a_hover.gif, trunk/img/bullet.gif, 
+	  trunk/img/bullet_on.gif, trunk/img/button-css.png, 
+	  trunk/img/button-php.gif, trunk/img/button-xhtml.png, 
+	  trunk/img/exclamation.gif, trunk/img/hdr_bg.gif, 
+	  trunk/img/hdr_left.gif, trunk/img/hdr_right.gif, 
+	  trunk/img/icn_about.gif, trunk/img/icn_admin.gif, 
+	  trunk/img/icn_burn.gif, trunk/img/icn_config.gif, 
+	  trunk/img/icn_config.jpg, trunk/img/icn_email.gif, 
+	  trunk/img/icn_gallery.gif, trunk/img/icn_home.gif, 
+	  trunk/img/icn_links.gif, trunk/img/icn_login.gif, 
+	  trunk/img/icn_logout.gif, trunk/img/icn_next.gif, 
+	  trunk/img/icn_next_on.gif, trunk/img/icn_next_yr.gif, 
+	  trunk/img/icn_next_yr_on.gif, trunk/img/icn_password.gif, 
+	  trunk/img/icn_prev.gif, trunk/img/icn_prev_on.gif, 
+	  trunk/img/icn_prev_yr.gif, trunk/img/icn_prev_yr_on.gif, 
+	  trunk/img/icn_register.gif, trunk/img/img_example.gif, 
+	  trunk/img/information.gif, trunk/img/logo.gif, 
+	  trunk/img/news_bg.gif, trunk/img/url.gif, trunk/index.php, 
+	  trunk/js, trunk/js/ac, trunk/js/ac/ac.css, trunk/js/ac/ac.js, 
+	  trunk/js/ac/ac.php, trunk/js/ac/acspec.js, 
+	  trunk/js/disableform.js, trunk/js/formval.js, trunk/js/overlib, 
+	  trunk/js/overlib/images, trunk/js/overlib/images/Thumbs.db, 
+	  trunk/js/overlib/images/cornerBL.gif, 
+	  trunk/js/overlib/images/cornerBR.gif, 
+	  trunk/js/overlib/images/cornerTL.gif, 
+	  trunk/js/overlib/images/cornerTR.gif, 
+	  trunk/js/overlib/images/edgeB.gif, 
+	  trunk/js/overlib/images/edgeL.gif, 
+	  trunk/js/overlib/images/edgeR.gif, 
+	  trunk/js/overlib/images/edgeT.gif, 
+	  trunk/js/overlib/images/flower.gif, 
+	  trunk/js/overlib/images/oval.gif, 
+	  trunk/js/overlib/images/pushpin.gif, 
+	  trunk/js/overlib/images/quotation.gif, 
+	  trunk/js/overlib/images/square.gif, trunk/js/overlib/overlib.js, 
+	  trunk/js/overlib/overlib_bubble.js, trunk/lib, 
+	  trunk/lib/epguide_lib.php, trunk/lib/grab_shows.php, 
+	  trunk/lib/lastRSS.php, trunk/lib/lib.php, 
+	  trunk/lib/server_config.php, trunk/lib/smarty, 
+	  trunk/lib/smarty/Config_File.class.php, 
+	  trunk/lib/smarty/Smarty.class.php, 
+	  trunk/lib/smarty/Smarty_Compiler.class.php, 
+	  trunk/lib/smarty/debug.tpl, trunk/lib/smarty/internals, 
+	  trunk/lib/smarty/internals/core.assemble_plugin_filepath.php, 
+	  trunk/lib/smarty/internals/core.assign_smarty_interface.php, 
+	  trunk/lib/smarty/internals/core.create_dir_structure.php, 
+	  trunk/lib/smarty/internals/core.display_debug_console.php, 
+	  trunk/lib/smarty/internals/core.get_include_path.php, 
+	  trunk/lib/smarty/internals/core.get_microtime.php, 
+	  trunk/lib/smarty/internals/core.get_php_resource.php, 
+	  trunk/lib/smarty/internals/core.is_secure.php, 
+	  trunk/lib/smarty/internals/core.is_trusted.php, 
+	  trunk/lib/smarty/internals/core.load_plugins.php, 
+	  trunk/lib/smarty/internals/core.load_resource_plugin.php, 
+	  trunk/lib/smarty/internals/core.process_cached_inserts.php, 
+	  trunk/lib/smarty/internals/core.process_compiled_include.php, 
+	  trunk/lib/smarty/internals/core.read_cache_file.php, 
+	  trunk/lib/smarty/internals/core.rm_auto.php, 
+	  trunk/lib/smarty/internals/core.rmdir.php, 
+	  trunk/lib/smarty/internals/core.run_insert_handler.php, 
+	  trunk/lib/smarty/internals/core.smarty_include_php.php, 
+	  trunk/lib/smarty/internals/core.write_cache_file.php, 
+	  trunk/lib/smarty/internals/core.write_compiled_include.php, 
+	  trunk/lib/smarty/internals/core.write_compiled_resource.php, 
+	  trunk/lib/smarty/internals/core.write_file.php, 
+	  trunk/lib/smarty/plugins, 
+	  trunk/lib/smarty/plugins/block.textformat.php, 
+	  trunk/lib/smarty/plugins/compiler.assign.php, 
+	  trunk/lib/smarty/plugins/function.assign_debug_info.php, 
+	  trunk/lib/smarty/plugins/function.config_load.php, 
+	  trunk/lib/smarty/plugins/function.counter.php, 
+	  trunk/lib/smarty/plugins/function.cycle.php, 
+	  trunk/lib/smarty/plugins/function.debug.php, 
+	  trunk/lib/smarty/plugins/function.eval.php, 
+	  trunk/lib/smarty/plugins/function.fetch.php, 
+	  trunk/lib/smarty/plugins/function.html_checkboxes.php, 
+	  trunk/lib/smarty/plugins/function.html_image.php, 
+	  trunk/lib/smarty/plugins/function.html_options.php, 
+	  trunk/lib/smarty/plugins/function.html_radios.php, 
+	  trunk/lib/smarty/plugins/function.html_select_date.php, 
+	  trunk/lib/smarty/plugins/function.html_select_time.php, 
+	  trunk/lib/smarty/plugins/function.html_table.php, 
+	  trunk/lib/smarty/plugins/function.mailto.php, 
+	  trunk/lib/smarty/plugins/function.math.php, 
+	  trunk/lib/smarty/plugins/function.popup.php, 
+	  trunk/lib/smarty/plugins/function.popup_init.php, 
+	  trunk/lib/smarty/plugins/modifier.capitalize.php, 
+	  trunk/lib/smarty/plugins/modifier.cat.php, 
+	  trunk/lib/smarty/plugins/modifier.count_characters.php, 
+	  trunk/lib/smarty/plugins/modifier.count_paragraphs.php, 
+	  trunk/lib/smarty/plugins/modifier.count_sentences.php, 
+	  trunk/lib/smarty/plugins/modifier.count_words.php, 
+	  trunk/lib/smarty/plugins/modifier.date_format.php, 
+	  trunk/lib/smarty/plugins/modifier.debug_print_var.php, 
+	  trunk/lib/smarty/plugins/modifier.default.php, 
+	  trunk/lib/smarty/plugins/modifier.escape.php, 
+	  trunk/lib/smarty/plugins/modifier.indent.php, 
+	  trunk/lib/smarty/plugins/modifier.lower.php, 
+	  trunk/lib/smarty/plugins/modifier.nl2br.php, 
+	  trunk/lib/smarty/plugins/modifier.regex_replace.php, 
+	  trunk/lib/smarty/plugins/modifier.replace.php, 
+	  trunk/lib/smarty/plugins/modifier.spacify.php, 
+	  trunk/lib/smarty/plugins/modifier.string_format.php, 
+	  trunk/lib/smarty/plugins/modifier.strip.php, 
+	  trunk/lib/smarty/plugins/modifier.strip_tags.php, 
+	  trunk/lib/smarty/plugins/modifier.truncate.php, 
+	  trunk/lib/smarty/plugins/modifier.upper.php, 
+	  trunk/lib/smarty/plugins/modifier.wordwrap.php, 
+	  trunk/lib/smarty/plugins/outputfilter.trimwhitespace.php, 
+	  trunk/lib/smarty/plugins/shared.escape_special_chars.php, 
+	  trunk/lib/smarty/plugins/shared.make_timestamp.php, 
+	  trunk/lib/table_setup.sql, trunk/lib/tv.com_lib.php, 
+	  trunk/lib/tvtome_lib.php, trunk/templates, 
+	  trunk/templates/admin.tpl, trunk/templates/body.tpl, 
+	  trunk/templates/config.tpl, trunk/templates/denied.tpl, 
+	  trunk/templates/favicon.ico, trunk/templates/footer.tpl, 
+	  trunk/templates/header.tpl, trunk/templates/leftcolumn.tpl, 
+	  trunk/templates/login.tpl, trunk/templates/lostpassword.tpl, 
+	  trunk/templates/msgbox.tpl, trunk/templates/register.tpl, 
+	  trunk/templates/shows.tpl, trunk/templates/shows_specific.tpl, 
+	  trunk/templates/stylesheet.css, trunk/templates/topmenu.tpl, 
+	  trunk/templates/topmenu.tpl_rewrite, trunk/templates_c, 
+	  trunk/templates_c/%%0B^0B4^0B40EBED%%config.tpl.php, 
+	  trunk/templates_c/%%0E^0E4^0E407559%%footer.tpl.php, 
+	  trunk/templates_c/%%12^125^12517BC0%%shows_specific.tpl.php, 
+	  trunk/templates_c/%%1C^1CB^1CB1970C%%topmenu.tpl.php, 
+	  trunk/templates_c/%%60^607^60708FA9%%lostpassword.tpl.php, 
+	  trunk/templates_c/%%62^620^6206D997%%admin.tpl.php, 
+	  trunk/templates_c/%%6A^6A5^6A537DD8%%login.tpl.php, 
+	  trunk/templates_c/%%80^809^8094B64D%%msgbox.tpl.php, 
+	  trunk/templates_c/%%81^81A^81AC87DE%%shows.tpl.php, 
+	  trunk/templates_c/%%87^878^8783C4C5%%leftcolumn.tpl.php, 
+	  trunk/templates_c/%%95^959^959BC755%%body.tpl.php, 
+	  trunk/templates_c/%%BA^BA9^BA98B048%%denied.tpl.php, 
+	  trunk/templates_c/%%C8^C82^C821C881%%register.tpl.php, 
+	  trunk/templates_c/%%F7^F7F^F7F34188%%header.tpl.php: Initial 
+	  revision
+
+2005-10-21 22:09  
+
+	* branches, tags, trunk: New repository initialized by cvs2svn.
+

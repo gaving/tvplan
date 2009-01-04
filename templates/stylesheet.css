@@ -1,0 +1,660 @@
+/* -- Site container definition -- */
+
+
+
+body {
+	font: 0.8em arial, sans-serif;
+	color: #444444;
+	background-color: #FFFFFF;
+	margin: 0px;
+}
+
+#siteBox {
+	top: 0;
+	margin-left: 5px;
+	width: 99%;
+}
+
+/* -- Header definitions -- */
+
+#headerBox {
+	float: left;
+	width: 100%;
+	height: 50px;
+	font-size: 1.5em;
+	font-weight: bold;
+	background: url(../img/hdr_bg.gif) repeat-x left bottom;
+}
+
+#headerLeft {
+	float: left;
+	width: 39%;
+	height: 50px;
+	background: url(../img/hdr_left.gif) no-repeat left bottom;
+}
+
+#headerRight {
+	float: right;
+	width: 59%;
+	height: 50px;
+	text-align: right;
+	background: url(../img/hdr_right.gif) no-repeat right bottom;
+}
+
+/* -- Header link bar definitions -- */
+
+#headerRight a {
+	padding-left: 20px;
+	text-decoration: none;
+	color: #999999;
+}
+
+#headerRight a:hover {
+	color: #444444;
+}
+
+#headerRight a.admin:hover {
+	color: #444444;
+	background: url(../img/icn_admin.gif) no-repeat left center;
+}
+
+#headerRight a.home:hover {
+	color: #444444;
+	background: url(../img/icn_home.gif) no-repeat left center;
+}
+
+#headerRight a.config:hover {
+	color: #444444;
+	background: url(../img/icn_config.gif) no-repeat left center;
+}
+
+#headerRight a.register:hover {
+	color: #444444;
+	background: url(../img/icn_register.gif) no-repeat left center;
+}
+
+#headerRight a.retrieval:hover {
+	color: #444444;
+	background: url(../img/icn_password.gif) no-repeat left center;
+}
+
+#headerRight a.shows:hover {
+	color: #444444;
+	background: url(../img/icn_about.gif) no-repeat left center;
+}
+
+#headerRight a.login:hover {
+	color: #444444;
+	background: url(../img/icn_login.gif) no-repeat left center;
+}
+
+#headerRight a.logout:hover {
+	color: #444444;
+	background: url(../img/icn_logout.gif) no-repeat left center;
+}
+
+/* -- Footer definitions -- */
+
+#footerBox {
+	position: absolute;
+	bottom: 0;
+	height: 18px;
+	font-size: 0.8em;
+	color: #999999;
+	border-top: 1px solid #D1D1D1;
+}
+
+#footerLeft {
+	position: absolute;
+	float: left;
+	text-align: left;
+}
+
+#footerRight {
+	float: right;
+	text-align: right;
+}
+
+.footerButtons a img {
+	border: none;
+	text-decoration: none;
+	opacity: 0.5;
+}
+
+.footerButtons a:hover img {
+	border: none;
+	text-decoration: none;
+	opacity: 1;
+}
+
+/* -- Content column & layout definitions -- */
+
+dl {
+	width: 240px;
+	margin: 0 0 20px 40px;
+	padding: 0;
+	background: #ccc url(../img/box_bottom.gif) no-repeat bottom left;
+}
+
+dt {
+	font-family: Georgia, serif;
+	font-size: small;
+	margin: 0;
+	padding: 10px;
+	font-size: 130%;
+	background: #ccc url(../img/box_top.gif) no-repeat top left;
+}
+
+dd {
+	margin: 0 0 0 10px;
+	padding: 0 10px 10px 10px;
+	color: #666;
+	font-family: Verdana, sans-serif;
+	font-size: 85%;
+	background: url(../img/arrow.gif) no-repeat 0 3px;
+}
+
+#blue, #blue dt {
+	background-color: #9cf;
+}
+
+#red, #red dt {
+	background-color: #c99;
+}
+
+#green, #green dt {
+	background-color: #cf9;
+}
+
+#leftColumn {
+	float: left;
+	width: 26%;
+	padding: 0 5px 5px 5px;
+	margin: 1.0em 0 1.0em 0;
+}
+
+.leftColumnBox {
+	float: left;
+	width: 100%;
+	margin-bottom: 1.4em;
+	padding-left: 3px;
+	padding-top: 5px;
+	border: 1px solid #444444;
+	background: url(../img/news_bg.gif) repeat left bottom;
+}
+
+#leftColumn p {
+	margin-top: 1px;
+	margin-left: 6px;
+}
+
+#leftColumn h1 {
+	clear: both;
+	font-size: 0.9em;
+	margin-bottom: 1px;
+	text-decoration: underline;
+}
+
+#rightColumn {
+	float: right;
+	width: 72%;
+	min-height: 600px;
+	margin-bottom: 5em;
+	height: auto;
+	padding: .5em;
+}
+
+/* min-height hack */
+/* for Internet Explorer */
+/*\*/
+* html #rightColumn {
+	height: 600px;
+}
+/**/
+
+#leftColumn p a,
+#rightColumn p a,
+#rightColumn ul a,
+#footerBox a {
+	text-decoration: none;
+	color: #999999;
+	background: #EEEEEE;
+}
+
+#leftColumn p a:hover,
+#rightColumn p a:hover,
+#rightColumn ul a:hover {
+	color: #111111;
+	background: #CCCCCC url(../img/a_hover.gif) repeat-x left bottom;
+}
+
+#rightColumn h1 {
+	clear: both;
+	font-size: 1.0em;
+	margin-top: 1.0em;
+	border-top: 1px solid #444444;
+	border-bottom: 1px solid #444444;
+	background: url(../img/news_bg.gif) repeat left bottom;
+}
+
+.progress {
+	margin: 2px;
+	padding: 3px;
+	border: solid 1px #ddd;
+	background-color: #eee;
+}
+
+.progress ul {
+	padding: 0;
+	margin: 15px 0;
+	text-align: left;
+}
+
+.progress li {
+	list-style: none inside;
+	margin: 0px;
+	padding: 0px;
+	background-color: #444;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+}
+
+/* -- Layout class definitions -- */
+.box {
+	padding: 10px 0;
+	margin: 15px 0;
+	text-align: center;
+	border: dashed 1px #000;
+	background-repeat: no-repeat;
+	background-position: 5px center ;
+}
+
+.infoBox {
+	background-color: #FFFFCC;
+	background-image: url(../img/msg_information.gif);
+}
+.errorBox {
+	background-color: #FFCE7B;
+	background-image: url(../img/msg_error.gif);
+}
+
+.tipBox {
+	background-color: #CCFFFF;
+	background-image: url(../img/msg_tip.gif);
+}
+
+.nukeBox {
+	background-color: #FF99CC;
+	background-image: url(../img/msg_nuke.gif);
+}
+
+.subHeading A:link,
+.subHeading A:visited,
+.subHeading A:active,
+.subHeading A:hover,
+.subHeading {
+	display: block;
+	clear: both;
+	font-size: 0.85em;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+
+.noDisplay  {
+	display: none;
+}
+
+.bugFix {
+	height: 1px;
+}
+
+.bigRightChar, .bigLeftChar {
+	font-size: 5.0em;
+}
+
+.bigRightChar {
+	float: right;
+	width: 11%;
+	text-align: left;
+}
+
+.bigLeftChar {
+	float: left;
+	width: 10%;
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.verticalSpacer {
+	height: 1.3em;
+}
+
+/* -- Element class definitions -- */
+
+acronym {
+	cursor: help;
+	background-color: #FFFFFF;
+	border: 1px solid #D2D2D2;
+}
+
+ul {
+	margin-left: 2.0em;
+	padding-left: 2.0em;
+	list-style-image: none;
+}
+
+ul a {
+	color: #444444;
+}
+
+p {
+	margin: 15px 0 15px 0;
+}
+
+/* -- Image class definitions -- */
+
+.imgBlock {
+	float: left;
+	width: 75%;
+	text-align: center;
+	padding-left: 10px;
+	margin-bottom: 1.0em;
+}
+
+.imgBlock img {
+	border: 1px solid #000000;
+}
+
+.imgBlock .imgThree {
+	padding: 0 2% 0 2%;
+}
+
+.imgSpace {
+	display: block;
+	border: none;
+	padding: 0 2% 0 2%;
+	margin-bottom: 1.0em;
+}
+
+.imgLeft {
+	float: left;
+	padding: 5px;
+}
+
+.imgRight {
+	float: right;
+	padding: 5px;
+}
+
+.imgText {
+	display: block;
+	font-size: 0.7em;
+}
+
+/* -- Form element class definitions -- */
+
+.inputField {
+	font-size: 0.70em;
+	border: 1px solid #D2D2D2;
+	background-color: #FFFFFF;
+}
+
+.inputField:focus {
+	color: #444444;
+	border: 1px solid #999999;
+}
+
+fieldset {
+	padding: 20px 0;
+	margin: 15px 0;
+	border: none;
+	border-left: solid 1px #ccc;
+}
+
+fieldset h4, fieldset h5 {
+	padding: 0;
+	margin: 25px 20px 0 20px;
+}
+
+fieldset h4:first-child, fieldset h5:first-child {
+	margin-top: 0;
+}
+
+fieldset h5 + p {
+	padding-bottom: 5px;
+	margin-top: 5px;
+	font-size: 95%;
+	border-bottom: dotted 1px #ccc;
+}
+
+fieldset p {
+	margin: 15px 20px 0 20px;
+}
+
+input, select, textarea {
+	font-size: 100%;
+}
+
+input {
+	border: 1px solid #999999;
+}
+
+/* sigh, another ie specific fix */
+
+.fixieborder {
+	border: none;
+}
+
+input[disabled] {
+	background-color: #EEEEEE;
+}
+
+label {
+	float: left;
+	width: 130px;
+	padding: 0 0 5px 5px;
+	margin: 0;
+	background-color: transparent;
+	color: #444;
+	border: 0;
+}
+
+span.error {
+	color: #000;
+}
+
+input.error {
+	border: 1px solid #000000;
+	background-color: #FF9999;
+}
+
+textarea.error {
+	border: 1px solid #000000;
+	background-color: #FF9999;
+}
+
+/* -- Calendar definitions -- */
+
+.calendar {
+	width: 90%;
+	float: right;
+	text-align: center;
+	padding-top: 1em;
+}
+
+.row {
+	width: 100%;
+	float: left;
+}
+
+.day, .blankDay, .currDay, .eventDay, .heading, .month {
+	width: 10%;
+	float: left;
+	margin: 2px;
+	font: 10px helvetica, sans-serif;
+	border: 1px solid #FFFFFF;
+}
+
+.day {
+	text-decoration: none;
+	color: #AAAAAA;
+	border: 1px solid #D2D2D2;
+}
+
+.day:hover {
+	color: #AAAAAA;
+	background-color: #EEEEEE;
+	border: 1px solid #AAAAAA;
+}
+
+.currDay {
+	cursor: help;
+	color: #FFFFFF;
+	background-color: #AAAAAA;
+	border: 1px solid #AAAAAA;
+}
+
+.eventDay {
+	cursor: help;
+	color: #000000;
+	background-color: #EEEEEE;
+	border: 1px dotted #CCCAB8;
+}
+
+.heading {
+	color: #AAAAAA;
+}
+
+.month {
+	width: 90%;
+	text-align: center;
+	vertical-align: middle;
+	color: #AAAAAA;
+}
+
+.prevMonth {
+	text-decoration: none;
+	background: url(../img/icn_prev.gif) no-repeat center center;
+}
+
+.prevMonth:hover {
+	text-decoration: none;
+	background: url(../img/icn_prev_on.gif) no-repeat center center;
+}
+
+.nextMonth {
+	text-decoration: none;
+	background: url(../img/icn_next.gif) no-repeat center center;
+}
+
+.nextMonth:hover {
+	text-decoration: none;
+	background: url(../img/icn_next_on.gif) no-repeat center center;
+}
+
+.prevYear {
+	text-decoration: none;
+	background: url(../img/icn_prev_yr.gif) no-repeat center center;
+}
+
+.prevYear:hover {
+	text-decoration: none;
+	background: url(../img/icn_prev_yr_on.gif) no-repeat center center;
+}
+
+.nextYear {
+	text-decoration: none;
+	background: url(../img/icn_next_yr.gif) no-repeat center center;
+}
+
+.nextYear:hover {
+	text-decoration: none;
+	background: url(../img/icn_next_yr_on.gif) no-repeat center center;
+}
+
+/* -- Main content definitions -- */
+
+.postdate {
+	padding: 0.2em;
+	font-weight: bold;
+	text-align: right;
+	font-size: 120%;
+	border-bottom: dotted 1px #ccc;
+	font-family: Georgia, serif;
+	margin-bottom:10px;
+}
+
+.post {
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+.post h2 {
+	font-size: 125%;
+}
+
+.post h3 {
+	font-size: 110%;
+}
+
+.postfooter {
+	font-size: 85%;
+	color: #444;
+	padding-top: 15px;
+}
+
+.specificshowtitle {
+	text-align: center;
+}
+
+.specificshowtitle a img {
+	border: 1px solid black;
+}
+
+table.specificshow {
+	width: 580px;
+	background-color: #fafafa;
+	border: 1px #AAAAAA solid;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+tr.specificshowheader {
+	background-color: #fafafa;
+	text-align: center;
+	border: 1px #AAAAAA solid;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 12px;
+	color: #404040;
+}
+
+tr.currentshow {
+	background-color: red;
+}
+
+tr.specificshowrow {
+	border-bottom: 1px #6699CC dotted;
+	text-align: left;
+	font-family: Verdana, sans-serif, Arial;
+	font-weight: normal;
+	font-size: .7em;
+	color: #404040;
+	background-color: #fafafa;
+}
+
+tr.specificshowrow td {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 8px;
+	padding-right: 0px;
+}
+
+tr.specificshowrow a img {
+	border: none;
+}

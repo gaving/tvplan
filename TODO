@@ -1,0 +1,75 @@
+Legend:
+	[ ] - incomplete
+	[x] - complete
+	[X] - major complete
+	[-] - removed
+	[!] - in progress/half done
+	[?] - completed but may break
+	[_] - deferred, uneeded? 
+
+Todo:
+	[x] - doesn't return numbered columns ie '24'
+	[x] - fix that glitch in epguide_lib with ep number
+	[x] - sort it out to test the connection before grabs
+	[x] - some sort of login system?
+	[x] - sort out individual tables
+	[x] - sort out time calculation
+	[x] - create admin panel
+	[-] - set up a "countdown" for a show airing
+	[x] - allow easy entry of RSS feeds/torrent stats etc
+	[x]	- remove silly 'random files' feature
+	[?] - rss timeout hangs script
+	[x] - expand torrent listing
+	[x] - torrentfile can be local or remote
+	[x] - last login stats
+	[x] - sort funny glitch with numbered series (ie 24)
+	[_] - fix THAT FUCKING FOOTER
+	[x] - client side javascript input validation
+	[x] - sort validEmail (picky about valid email addresses)
+	[x] - sort stats count (only count unique shows)
+	[x] - make registration optional
+	[x] - use curl instead of fopen (optional)
+	[x] - retrieve password section
+	[x] - deleting show deletes it for everyone(!)
+	[x] - make mysql table names nicer (prefix them)
+	[x] - change password form
+	[x] - timezone settings
+	[!] - weird comma bug with some shows, eg (House, MD)
+		\ pretty much works except cant use 'browse' due to query string comma
+	[x] - deleting specific news synopsis's
+	[ ] - email show air reminders?
+	[ ] - make shows get updated automatically
+	[ ] - update shows.txt automatically 
+	[ ] - firefox (and maybe other browsers) save form information which is annoying
+	[x] - title names cut off? (ex: desperate housewives) fixed: hahah VARCHAR(32)
+	[x] - colour coordinate browse for various shows
+	[x] - welcome message for first time users
+	[x] - 'tip of the day' type system?
+	[X] - rewrite mysql tables to use ids rather than snames and names (2.0)
+	[X] - probably more stuff could be tidied up and delegated to functions (2.0)
+	[ ] - sort out "login now" on register not following login button stuff.
+	[X] - sort out sendMail being weird (2.0)
+	[X] - make user library to store user operations (2.0)
+	[ ] - fix mod_rewrite
+	[ ] - some sort of xml based rss thing for shows
+	[ ] - multiple window stuff sometimes breaks (htmlenties thing) 
+	[X] - same as above but for deleting a news item (should use ids)
+		\ would require altering all the new and existing users news tables. :/ (2.0)
+	[ ] - grab all shows from tv.com or whatever since last login and not just the one on the current day
+	[ ] - handle timed out epguide/tv.com fetches gracefully (ie don't just hang with them)
+
+Future:
+	[_] - implement search
+	[ ] - provide interface to grab_shows.php
+	[?] - fix mod_rewrite (see .htaccess and topmenu.tpl)
+	[ ] - colour scheming
+	[_] - convert this stuff to use sqllite?
+	[X] - php5
+	[X] - mysqli
+	[_] - pear db
+	[_] - look into xmltv instead (nope - uk only)
+	[ ] - find a better source for parsing tv shows
+	[x] - display html tidied output (smarty trimwhitespace filter)
+	[ ] - convert config files to xml maybe?
+	[ ] - proper error logging when something goes wrong 
+		\ i.e. if mysql goes down in the middle of something
