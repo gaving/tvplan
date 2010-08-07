@@ -1,3 +1,5 @@
+# tvplan
+
 
                                    88                           
   ,d                               88                           
@@ -11,21 +13,22 @@ MM88MMM  8b       d8  8b,dPPYba,   88  ,adPPYYba,  8b,dPPYba,
                       88                                        
 
 tvplan2 (http://gav.brokentrain.net/projects/tvplan)
-$Id: README 73 2006-08-29 20:41:15Z gstewart $
 online television show management and tracking
-Gavin Gilmour (gavin(at)brokentrain.net)
 
-Setup
-=========
+## Install
 
-1. Create suitable database, import tables into mysql with '\. lib/table_setup.sql' or use the shell script in 'lib/nuke.sh'.
-2. Copy and customise 'lib/templates/server_config.template' to 'lib/server_config.php' accordingly.
-3. Login as admin, change default admin password in config. 
-4. Administer more users through admin menu.
-5. Profit.
+* Create suitable database, import tables into mysql with '\. lib/table_setup.sql' or use the shell script in 'lib/nuke.sh'.
+* Copy and customise 'lib/templates/server_config.template' to 'lib/server_config.php' accordingly.
+* Login as admin, change default admin password in config. 
+* Administer more users through admin menu.
+* Profit.
 
-Requirements
-=========
+## Requirements
 
-0. MYSQL4.1/5, PHP5
-1. The directories cfg, profiles, tmp and templates_c to be writable by the webserver.
+* MYSQL4.1/5, PHP5
+* The directories cfg, profiles, tmp and templates_c to be writable by the webserver.
+
+## screenshot
+
+![interface](http://github.com/gaving/tvplan/raw/master/site/1.png)
+![interface](http://github.com/gaving/tvplan/raw/master/site/2.png)
